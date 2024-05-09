@@ -20,171 +20,183 @@
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <header class="container-fluid position-absolute">
-      <div class="row align-middle">
-        <div class="col p-4">
-          <div class="logo">
-            <img src="/public/logo.png" />
+    <header>
+      <div class="container-fluid">
+        <div class="d-flex align-items-center justify-content-between px-5">
+          <div class="">
+            <a class="logo" href="index">
+              <img src="public/main-logo.png" />
+            </a>
           </div>
-        </div>
-        <div class="col-3 p-4">
-          <nav class="d-flex align-items-center">
-            <a href="#" class="color-home">
-              <div class="menu-item">
-                <img src="/public/home.svg" />
-                <p>home</p>
-              </div>
-            </a>
-            <a href="#" class="color-about">
-              <div class="menu-item">
-                <img src="/public/home.svg" />
-                <p>about us</p>
-              </div>
-            </a>
-            <a href="#" class="color-services">
-              <div class="menu-item">
-                <img src="/public/home.svg" />
-                <p>services</p>
-              </div>
-            </a>
-            <a href="#" class="color-contact">
-              <div class="menu-item">
-                <img src="/public/home.svg" />
-                <p>contact us</p>
-              </div>
-            </a>
-          </nav>
+          <div class="">
+            <nav class="d-flex align-items-center">
+              <a href="#" class="color-home">
+                <div class="menu-item">
+                  <img src="public/home.png" />
+                  <p>home</p>
+                </div>
+              </a>
+              <a href="about_us.html" class="color-about">
+                <div class="menu-item">
+                  <img src="public/group.png" />
+                  <p>about us</p>
+                </div>
+              </a>
+              <a href="#" class="color-services">
+                <div class="menu-item">
+                  <img src="public/customer-support.png" />
+                  <p>services</p>
+                </div>
+              </a>
+              <a href="#" class="color-contact">
+                <div class="menu-item">
+                  <img src="public/contact-mail.png" />
+                  <p>contact us</p>
+                </div>
+              </a>
+            </nav>
+          </div>
         </div>
       </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="container-fluid">
-      <div class="hero d-flex justify-content-center flex-column px-5">
-        <p class="hero-text">quality is our</p>
-        <p class="hero-text">business plan</p>
+    <section class="hero-sec">
+      <div class="container-fluid">
+        <div class="hero d-flex justify-content-center flex-column px-5">
+          <h1>
+            Quality <span>is our</span> <br />
+            Business Plan
+          </h1>
+        </div>
       </div>
     </section>
     <!-- mission vission tabs-->
-    <section class="container-fluid mervice-s2">
-      <img class="hand-shake-img" src="public/hand_shake.png" />
-      <div class="row">
-        <div class="col">
-          <h2 class="sub-heading text-white">
-            We Have The Best Experts To Elevate Your Business
-          </h2>
+    <section class="mervice-s2">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h2 class="sub-heading text-white">
+              We Have The Best Experts To Elevate Your Business
+            </h2>
+          </div>
         </div>
-      </div>
 
-      <div class="">
-        <ul class="custom-tabs" id="cust-tab">
-          <li class="nav-item" role="presentation">
-            <button
-              class="nav-link active"
-              id="mission-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#mission"
-              type="button"
-              role="tab"
-              aria-controls="mission"
-              aria-selected="true"
-            >
-              Our Mission
-            </button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button
-              class="nav-link"
-              id="vission-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#vission"
-              type="button"
-              role="tab"
-              aria-controls="vission"
-              aria-selected="false"
-            >
-              Vission
-            </button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button
-              class="nav-link"
-              id="core-values-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#core-values"
-              type="button"
-              role="tab"
-              aria-controls="core-values"
-              aria-selected="false"
-            >
-              Core Values
-            </button>
-          </li>
-        </ul>
-        <div class="tab-content" id="cust-tab-content">
-          <div
-            class="tab-pane fade show active"
-            id="mission"
-            role="tabpanel"
-            aria-labelledby="mission-tab"
-          >
-            <p class="mb-5">
-              We strive to be a world leader in providing our clients
-              outsourcing solutions that take their business to the next level
-              with an innovative approach that is customized to their needs.
-            </p>
+        <div class="row pl-80">
+          <div class="col-md-6">
+            <ul class="custom-tabs" id="cust-tab">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="mission-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#mission"
+                  type="button"
+                  role="tab"
+                  aria-controls="mission"
+                  aria-selected="true"
+                >
+                  Our Mission
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="vission-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#vission"
+                  type="button"
+                  role="tab"
+                  aria-controls="vission"
+                  aria-selected="false"
+                >
+                  Vission
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="core-values-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#core-values"
+                  type="button"
+                  role="tab"
+                  aria-controls="core-values"
+                  aria-selected="false"
+                >
+                  Core Values
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content" id="cust-tab-content">
+              <div
+                class="tab-pane fade show active"
+                id="mission"
+                role="tabpanel"
+                aria-labelledby="mission-tab"
+              >
+                <p class="mb-5">
+                  We strive to be a world leader in providing our clients
+                  outsourcing solutions that take their business to the next
+                  level with an innovative approach that is customized to their
+                  needs.
+                </p>
 
-            <p class="mb-5">
-              We consider our clients to be our partners. For that we offer them
-              the best outsourced solutions. Consistency with work & exceeding
-              clients&apos; expectations has always been our motto.
-            </p>
-          </div>
-          <div
-            class="tab-pane fade"
-            id="vission"
-            role="tabpanel"
-            aria-labelledby="vission-tab"
-          >
-            <p class="mb-5">
-              Our vision is to serve as the catalyst for our clients' business
-              growth by offering unparalleled, cost-effective outsourcing
-              services. We strive to foster a collaborative environment among
-              our employees, suppliers and partners, where innovative solutions
-              are cultivated and implemented to propel our clients towards
-              unparalleled success. Through our dedication to excellence and
-              commitment to integrity, we aim to be the trusted partner that
-              empowers businesses to thrive in an ever-changing global
-              landscape.
-            </p>
-          </div>
-          <div
-            class="tab-pane fade"
-            id="core-values"
-            role="tabpanel"
-            aria-labelledby="core-values-tab"
-          >
-            <p class="mb-5">
-              Excellence. Quality of work does not stop at competence but goes
-              beyond clients&apos; expectations.
-            </p>
+                <p class="mb-5">
+                  We consider our clients to be our partners. For that we offer
+                  them the best outsourced solutions. Consistency with work &
+                  exceeding clients&apos; expectations has always been our
+                  motto.
+                </p>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="vission"
+                role="tabpanel"
+                aria-labelledby="vission-tab"
+              >
+                <p class="mb-5">
+                  Our vision is to serve as the catalyst for our clients'
+                  business growth by offering unparalleled, cost-effective
+                  outsourcing services. We strive to foster a collaborative
+                  environment among our employees, suppliers and partners, where
+                  innovative solutions are cultivated and implemented to propel
+                  our clients towards unparalleled success. Through our
+                  dedication to excellence and commitment to integrity, we aim
+                  to be the trusted partner that empowers businesses to thrive
+                  in an ever-changing global landscape.
+                </p>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="core-values"
+                role="tabpanel"
+                aria-labelledby="core-values-tab"
+              >
+                <p class="mb-5">
+                  Excellence. Quality of work does not stop at competence but
+                  goes beyond clients&apos; expectations.
+                </p>
 
-            <p class="mb-5">
-              Commitment. The dedication of our team extends beyond the good of
-              the company, to the betterment and success of our clients by
-              allocating the required resources and training to exceed your
-              goals.
-            </p>
+                <p class="mb-5">
+                  Commitment. The dedication of our team extends beyond the good
+                  of the company, to the betterment and success of our clients
+                  by allocating the required resources and training to exceed
+                  your goals.
+                </p>
 
-            <p class="mb-5">
-              Integrity. Mervice BPO only believes in doing work the right way
-              with the right attitude and motivation.
-            </p>
+                <p class="mb-5">
+                  Integrity. Mervice BPO only believes in doing work the right
+                  way with the right attitude and motivation.
+                </p>
 
-            <p class="mb-5">
-              Innovation. The BPO industry is fast-paced and ever-changing. With
-              Mervice BPO, you are assured that you are never left behind.
-            </p>
+                <p class="mb-5">
+                  Innovation. The BPO industry is fast-paced and ever-changing.
+                  With Mervice BPO, you are assured that you are never left
+                  behind.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -254,8 +266,8 @@
         <div class="col-6 man">
           <img src="public/man.svg" />
         </div>
-        <div class="col-6">
-          <form>
+        <div class="col-5">
+          <form class="index-form">
             <img class="form-underlay" src="public/form_bg.png" />
             <!-- name -->
             <div class="form-group">
@@ -320,9 +332,9 @@
       <div class="row">
         <div class="col">
           <div class="vstack align-items-center">
-            <div class="logo-footer">
-              <img src="public/logo2.svg" />
-            </div>
+            <a class="logo-footer" href="#">
+              <img src="public/footer-logo.png" />
+            </a>
             <div class="social hstack gap-2 justify-content-center">
               <div class="icon-cont">
                 <i class="fa-brands fa-google fa-xl"></i>

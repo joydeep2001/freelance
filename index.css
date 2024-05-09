@@ -5,10 +5,13 @@ body {
 .hero-sec {
   padding: 300px 0 400px;
   height: 100vh;
-  background-image: url("public/hero.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
+.home-bg-img {
+  background-image: url("public/hero.png");
+}
+
 .pl-80{
   padding-left: 80px;
 }

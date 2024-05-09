@@ -150,9 +150,12 @@ nav a p {
 .mervice-s3 {
   font-size: 25px !important;
   line-height: 1.2 !important;
-  color: #1a194d;
+
   padding-left: 100px !important;
   text-align: left;
+}
+.color-home-s3 {
+  color: #1a194d;
 }
 .mervice-s3 h3 {
   text-transform: uppercase;

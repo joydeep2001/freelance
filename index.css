@@ -87,8 +87,10 @@ nav a p {
 .hero-sec h1 {
   font-size: 62px;
   text-transform: uppercase;
-  color: #ffffff;
   font-weight: 700;
+}
+.color-white {
+  color: #ffffff;
 }
 .hero-sec h1 span {
   font-weight: 500;
@@ -96,9 +98,13 @@ nav a p {
 .mervice-s2 {
   padding: 80px 0 120px;
   background-size: cover;
-  background-image: url(./public/bg2.png);
   background-repeat: no-repeat;
 }
+.s2-bg-img-home {
+  
+  background-image: url("./public/bg2.png");
+}
+
 
 .tab-pane {
   font-size: 25px;

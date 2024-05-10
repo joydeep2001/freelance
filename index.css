@@ -404,3 +404,67 @@ footer {
   padding: 100px !important;
   text-align: center;
 }
+/*Services*/
+.service-bg-img {
+  background-image: url("public/service_hero.png");
+}
+.service-hero-txt {
+  text-align: right;
+  color: #1a194d !important;
+  padding-right: 50px;
+  margin-top: -150px;
+}
+.mb-40 {
+  margin-bottom: 40px !important;
+}
+.cap {
+  text-transform: capitalize;
+}
+.s2-bg-img-ser {
+  background-image: url("./public/s2-bg-ser.png");
+}
+.px-40 {
+  padding: 0px 40px 0px 40px !important;
+}
+.box-card {
+  padding: 40px 0px 40px;
+  border-radius: 50px;
+  background-size: cover;
+}
+.box-card .text-cont {
+  color: white;
+}
+.box-card button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+.box-card .img-cont {
+  border: 4px solid white !important;
+}
+.box-card-bg-1 {
+  background-image: url("/public/box-bg-1.png");
+}
+.box-card-bg-2 {
+  background-image: url("/public/box-bg-2.png");
+}
+.box-card-bg-3 {
+  background-image: url("/public/box-bg-3.png");
+}
+.box-card-bg-4 {
+  background-image: url("/public/box-bg-4.png");
+}
+.box-card-bg-5 {
+  background-image: url("/public/box-bg-5.png");
+}
+.box-card-bg-6 {
+  background-image: url("/public/box-bg-6.png");
+}
+.bg-client {
+  background-color: #ebebeb !important;
+}
+
+.box-card.img-only {
+  height: 100%;
+  width: 100%;
+}

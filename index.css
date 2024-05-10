@@ -404,6 +404,11 @@ footer {
   padding: 100px !important;
   text-align: center;
 }
+.advantages .cust-card p {
+  font-size: 18px;
+  color: #1a194d;
+  font-weight: 300;
+}
 /*Services*/
 .service-bg-img {
   background-image: url("public/service_hero.png");

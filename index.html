@@ -17,6 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
@@ -63,7 +64,10 @@
     <!-- Hero Section -->
     <section class="hero-sec color-white home-bg-img">
       <div class="container-fluid">
-        <div class="hero d-flex justify-content-center flex-column px-5">
+        <div
+          data-aos="zoom-in-down"
+          class="hero d-flex justify-content-center flex-column px-5"
+        >
           <h1>
             Quality <span>is our</span> <br />
             Business Plan
@@ -76,7 +80,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col">
-            <h2 class="sub-heading text-white">
+            <h2 data-aos="fade-right" class="sub-heading text-white">
               We Have The Best Experts To Elevate Your Business
             </h2>
           </div>
@@ -84,7 +88,7 @@
 
         <div class="row pl-80">
           <div class="col-md-6">
-            <ul class="custom-tabs" id="cust-tab">
+            <ul data-aos="fade-up" class="custom-tabs" id="cust-tab">
               <li class="nav-item" role="presentation">
                 <button
                   class="nav-link active"
@@ -134,6 +138,7 @@
                 id="mission"
                 role="tabpanel"
                 aria-labelledby="mission-tab"
+                data-aos="fade-up"
               >
                 <p class="mb-5">
                   We strive to be a world leader in providing our clients
@@ -154,6 +159,7 @@
                 id="vission"
                 role="tabpanel"
                 aria-labelledby="vission-tab"
+                data-aos="fade-up"
               >
                 <p class="mb-5">
                   Our vision is to serve as the catalyst for our clients'
@@ -172,6 +178,7 @@
                 id="core-values"
                 role="tabpanel"
                 aria-labelledby="core-values-tab"
+                data-aos="fade-up"
               >
                 <p class="mb-5">
                   Excellence. Quality of work does not stop at competence but
@@ -204,8 +211,8 @@
     <!-- Why Mervice -->
     <section class="mervice-s3 color-home-s3">
       <div class="container-fluid">
-        <h2 class="sub-heading">Why Mervice</h2>
-        <div class="vstack gap-2">
+        <h2 data-aos="fade-up" class="sub-heading">Why Mervice</h2>
+        <div data-aos="fade-right" class="vstack gap-2">
           <h3>trusted by customer across the globe</h3>
           <ul class="custom-bullets">
             <li>
@@ -223,7 +230,7 @@
             </li>
           </ul>
         </div>
-        <div class="vstack gap-2">
+        <div data-aos="fade-right" class="vstack gap-2">
           <h3>quality service</h3>
           <ul class="custom-bullets">
             <li>
@@ -240,7 +247,7 @@
             </li>
           </ul>
         </div>
-        <div class="vstack gap-2">
+        <div data-aos="fade-right" class="vstack gap-2">
           <h3>reports and analytics</h3>
           <ul class="custom-bullets">
             <li>
@@ -262,13 +269,13 @@
     </section>
     <section class="container-fluid contact-us">
       <div class="row">
-        <h2 class="sub-heading">Get a Free Quote!</h2>
+        <h2 data-aos="flip-left" class="sub-heading">Get a Free Quote!</h2>
       </div>
       <div class="row">
         <div class="col-6 man">
           <img src="public/man.svg" />
         </div>
-        <div class="col-5">
+        <div data-aos="flip-left" class="col-5">
           <form class="index-form">
             <img class="form-underlay" src="public/form_bg.png" />
             <!-- name -->
@@ -332,7 +339,7 @@
     <!-- footer -->
     <footer>
       <div class="container-fluid">
-        <div class="row">
+        <div data-aos="zoom-out" class="row">
           <div class="col">
             <div class="vstack align-items-center">
               <a class="logo-footer" href="#">
@@ -391,6 +398,14 @@
       </div>
     </footer>
     <script src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 240,
+      });
+    </script>
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"

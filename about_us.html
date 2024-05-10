@@ -17,7 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
@@ -64,7 +64,10 @@
     <!-- Hero Section -->
     <section class="hero-sec about-bg-img color-white">
       <div class="container-fluid">
-        <div class="hero d-flex justify-content-center flex-column px-5">
+        <div
+          data-aos="zoom-in-down"
+          class="hero d-flex justify-content-center flex-column px-5"
+        >
           <h1>
             Quality <span>is our</span> <br />
             Business Plan
@@ -77,13 +80,15 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col">
-            <h2 class="sub-heading text-white">About Us</h2>
+            <h2 data-aos="fade-right" class="sub-heading text-white">
+              About Us
+            </h2>
           </div>
         </div>
 
         <div class="row pl-80">
           <div class="col-md-6">
-            <div class="about-text">
+            <div data-aos="fade-up" class="about-text">
               You Choose Us and We live up to Your Choice. As a firm with the
               potential to establish a strong foothold within the BPO domain
               Mervice promises to go beyond ensuring quality inbound and
@@ -102,13 +107,13 @@
     <!-- Service Details -->
     <section class="mervice-s3 color-home-s3 mb-40">
       <div class="container-fluid">
-        <h2 class="sub-heading color-about-s3">
+        <h2 data-aos="fade-left" class="sub-heading color-about-s3">
           The High Standard Trusted & <br />
           Professional Services
         </h2>
         <div class="row">
           <!-- Accounts -->
-          <div class="col-2">
+          <div data-aos="flip-left" class="col-2">
             <div class="rounded-icon vstack gap-3">
               <div class="img-cont">
                 <img src="public/accountant.png" />
@@ -123,7 +128,7 @@
             </div>
           </div>
           <!-- Customer Support -->
-          <div class="col-2">
+          <div data-aos="flip-left" class="col-2">
             <div class="rounded-icon vstack gap-3">
               <div class="img-cont">
                 <img src="public/customer-service.png" />
@@ -138,7 +143,7 @@
             </div>
           </div>
           <!-- Back office -->
-          <div class="col-2">
+          <div data-aos="flip-left" class="col-2">
             <div class="rounded-icon vstack gap-3">
               <div class="img-cont">
                 <img src="public/teacher-with-laptop.png" />
@@ -153,7 +158,7 @@
             </div>
           </div>
           <!-- Email & Chat -->
-          <div class="col-2">
+          <div data-aos="flip-left" class="col-2">
             <div class="rounded-icon vstack gap-3">
               <div class="img-cont">
                 <img src="public/chat.png" />
@@ -165,7 +170,7 @@
             </div>
           </div>
           <!-- Outbound -->
-          <div class="col-2">
+          <div data-aos="flip-left" class="col-2">
             <div class="rounded-icon vstack gap-3">
               <div class="img-cont">
                 <img src="public/live-chat.png" />
@@ -180,7 +185,7 @@
             </div>
           </div>
           <!-- Inbound -->
-          <div class="col-2">
+          <div data-aos="flip-left" class="col-2">
             <div class="rounded-icon vstack gap-3">
               <div class="img-cont">
                 <img src="public/customer-service.png" />
@@ -201,11 +206,11 @@
     <section class="mervice-s4 bg-about-s4">
       <div class="container-fluid">
         <div class="row">
-          <h2 class="sub-heading">Why Mervice Infotech?</h2>
+          <h2 data-aos="fade-up" class="sub-heading">Why Mervice Infotech?</h2>
         </div>
         <div class="row">
           <div class="col-6">
-            <ul class="custom-bullets">
+            <ul data-aos="fade-right" class="custom-bullets">
               <li>
                 Solution Oriented Service Partner &hyphen; “You have a problem;
                 we have a solution”
@@ -232,7 +237,7 @@
           <h2 class="sub-heading">Mervice Advantage</h2>
         </div>
         <div class="row">
-          <div class="col-4">
+          <div data-aos="zoom-in-up" class="col-4">
             <div class="vstack">
               <div class="cust-card vstack">
                 <div class="img-cont">
@@ -261,7 +266,7 @@
           <div class="col-4">
             <img src="public/about-man.png" />
           </div>
-          <div class="col-4">
+          <div data-aos="zoom-in-up" class="col-4">
             <div class="vstack">
               <div class="cust-card vstack">
                 <div class="img-cont">
@@ -293,7 +298,7 @@
     <!-- footer -->
     <footer>
       <div class="container-fluid">
-        <div class="row">
+        <div data-aos="zoom-out" class="row">
           <div class="col">
             <div class="vstack align-items-center">
               <a class="logo-footer" href="#">
@@ -351,6 +356,13 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 240,
+      });
+    </script>
 
     <link
       rel="stylesheet"

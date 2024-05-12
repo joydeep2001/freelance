@@ -317,6 +317,18 @@ footer {
   width: 100%;
 }
 
+/*services sub pages*/
+.desc p, .desc li {
+  font-size: 18px;
+  color: #1a194d;
+  font-weight: 400;
+}
+
+.desc ul {
+  list-style: armenian;
+  list-style: url("./public/right_arrow.png");
+}
+
 /*About Page */
 
 .about-bg-img {

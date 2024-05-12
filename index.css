@@ -202,6 +202,7 @@ ul {
 }
 ul.custom-bullets li {
   margin: 2px;
+  display: inline-flex;
 }
 ul.custom-bullets li:before {
   content: url("public/right_arrow.png");

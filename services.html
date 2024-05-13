@@ -23,13 +23,13 @@
   <body>
     <header>
       <div class="container-fluid">
-        <div class="d-flex align-items-center justify-content-between px-5">
+        <div class="d-flex align-items-center justify-content-between">
           <div class="">
             <a class="logo" href="index.html">
               <img src="public/main-logo.png" />
             </a>
           </div>
-          <div class="">
+          <div class="nav-lg-screen">
             <nav class="d-flex align-items-center">
               <a href="index.html" class="color-home">
                 <div class="menu-item">
@@ -56,6 +56,43 @@
                 </div>
               </a>
             </nav>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="nav-sm-screen">
+              <div class="menu-icon">
+                <img src="./public/menu.png" />
+              </div>
+            </div>
+            <div class="menu-panel">
+              <nav class="">
+                <a href="index.html" class="color-home">
+                  <div class="menu-item">
+                    <img src="public/home.png" />
+                    <p>home</p>
+                  </div>
+                </a>
+                <a href="about_us.html" class="color-about">
+                  <div class="menu-item">
+                    <img src="public/group.png" />
+                    <p>about us</p>
+                  </div>
+                </a>
+                <a href="services.html" class="color-services">
+                  <div class="menu-item">
+                    <img src="public/customer-support.png" />
+                    <p>services</p>
+                  </div>
+                </a>
+                <a href="#" class="color-contact">
+                  <div class="menu-item">
+                    <img src="public/contact-mail.png" />
+                    <p>contact us</p>
+                  </div>
+                </a>
+              </nav>
+            </div>
           </div>
         </div>
       </div>
@@ -275,7 +312,7 @@
     <footer>
       <div class="container-fluid">
         <div data-aos="zoom-out" class="row">
-          <div class="col">
+          <div class="col-lg-4 col-md-6">
             <div class="vstack align-items-center">
               <a class="logo-footer" href="#">
                 <img src="public/footer-logo.png" />
@@ -293,7 +330,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-lg-4 col-md-6">
             <div class="footer-contact vstack gap-3">
               <h2>Get In Touch With Us</h2>
               <div>
@@ -312,22 +349,20 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-lg-4">
             <div class="reach-us vstack gap-3 align-items-center">
               <h2 class="text-center">Reach Us</h2>
               <div class="reach-us-map">
-                <div style="width: 100%">
-                  <iframe
-                    width="100%"
-                    height="600"
-                    frameborder="0"
-                    scrolling="no"
-                    marginheight="0"
-                    marginwidth="0"
-                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=478%20Rue%20Belle%20vue,%20Casablanca,%20Morocco+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                    ><a href="https://www.gps.ie/">gps systems</a></iframe
-                  >
-                </div>
+                <iframe
+                  width="100%"
+                  height="600"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                  src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=478%20Rue%20Belle%20vue,%20Casablanca,%20Morocco+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                  ><a href="https://www.gps.ie/">gps systems</a></iframe
+                >
               </div>
             </div>
           </div>
@@ -341,7 +376,7 @@
         offset: 240,
       });
     </script>
-
+    <script src="script_menu.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"

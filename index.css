@@ -1,11 +1,13 @@
 body {
   font-family: "Montserrat";
+  overflow-x: hidden; 
 }
 .hero-sec {
   padding: 300px 0 400px;
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .home-bg-img {
   background-image: url("public/hero.png");
@@ -99,6 +101,7 @@ nav a p {
   padding: 80px 0 120px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .s2-bg-img-home {
   background-image: url("./public/bg2.png");
@@ -133,10 +136,10 @@ nav a p {
 }
 
 .nav-link.active {
-  font-size: 33px !important;
+  font-size: 33px;
   line-height: 1.2 !important;
   color: #ffffff !important;
-  font-weight: 700 !important;
+  font-weight: 700;
   opacity: 1;
 }
 
@@ -151,10 +154,10 @@ nav a p {
 }
 
 .mervice-s3 {
-  font-size: 25px !important;
+  font-size: 25px;
   line-height: 1.2 !important;
 
-  padding-left: 100px !important;
+  /* padding: 0 60px 0 60px !important; */
   text-align: left;
 }
 .color-home-s3 {
@@ -165,7 +168,7 @@ nav a p {
   margin-top: 10px !important;
   font-weight: 700 !important;
   /* margin-bottom: 5px !important; */
-  padding-left: 35px !important;
+  /* padding-left: 35px !important; */
   position: relative;
   overflow: hidden;
   margin-left: 30px !important;
@@ -173,7 +176,7 @@ nav a p {
 .sub-heading {
   text-align: center;
   padding: 20px !important;
-  font-size: 42px;
+  font-size: 42px !important;
   position: relative;
   margin-top: 40px !important;
   margin-bottom: 40px !important;
@@ -199,6 +202,7 @@ h3 {
 ul {
   list-style-type: none;
   position: relative;
+  padding: 0;
 }
 ul.custom-bullets li {
   margin: 2px;
@@ -297,7 +301,7 @@ footer {
   font-weight: 700;
 }
 .reach-us-map {
-  width: 522px;
+  width: 100%;
   height: 237px;
   border-radius: 15px;
   overflow: hidden;
@@ -316,18 +320,6 @@ footer {
 .icon-cont img {
   height: 100%;
   width: 100%;
-}
-
-/*services sub pages*/
-.desc p, .desc li {
-  font-size: 18px;
-  color: #1a194d;
-  font-weight: 400;
-}
-
-.desc ul {
-  list-style: armenian;
-  list-style: url("./public/right_arrow.png");
 }
 
 /*About Page */
@@ -485,4 +477,217 @@ footer {
 .box-card.img-only {
   height: 100%;
   width: 100%;
+}
+
+/*services sub pages*/
+.desc p, .desc li {
+  font-size: 18px;
+  color: #1a194d;
+  font-weight: 400;
+}
+
+.desc ul {
+  list-style: armenian;
+  list-style: url("./public/right_arrow.png");
+}
+.nav-sm-screen {
+  width: 100%;
+  display: flex;
+  
+  justify-content: flex-end;
+}
+.nav-sm-screen .menu-icon {
+  height: 30px;
+  width: 30px;
+  display: none;
+  
+}
+.nav-sm-screen .menu-icon img {
+  height: 100%;
+  width: 100%;
+}
+.menu-panel {
+  position: relative;
+  z-index: 100;
+  display: none;
+}
+.menu-panel nav {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  top: 30px;
+}
+
+
+/* Extra large devices (desktops, 1440px and above) */
+@media only screen and (max-width: 1440px) {
+  /* Your CSS rules for devices up to 1440px wide */
+  
+}
+
+/* Large devices (laptops/desktops, 1366px and above) */
+@media only screen and (max-width: 1366px) {
+  .contact-us .man img  {
+    display: none;
+  }
+  .contact-us {
+    padding: 0px 240px 0px 240px;
+  }
+  .form-control {
+    font-size: 30px !important;
+  }
+  .sub-heading {
+    font-size: 40px;
+  } 
+  .hero-sec h1 {
+    font-size: 60px;
+    font-weight: 600;
+  }
+  .tab-pane {
+    font-size: 23px;
+  }
+  .mervice-s3 {
+    font-size: 23px;
+  }
+}
+
+/* Medium devices (tablets, 1280px and above) */
+@media only screen and (max-width: 1280px) {
+ 
+}
+
+/* Small devices (tablets, 1024px and above) */
+@media only screen and (max-width: 1024px) {
+  .contact-us {
+    padding: 0px 120px 0px 120px;
+  }
+}
+
+/* Extra small devices (phones, 991px and above) */
+@media only screen and (max-width: 991px) {
+  
+  .form-control {
+    font-size: 30px !important;
+  }
+  .sub-heading {
+    font-size: 38px !important;
+  } 
+  .hero-sec h1 {
+    font-size: 58px;
+    font-weight: 600;
+  }
+  .nav-link {
+    font-size: 21px;
+  }
+  .nav-link.active {
+    font-size: 26px;
+    font-weight: 600;
+  }
+  .tab-pane {
+    font-size: 21px;
+  }
+  .mervice-s3 {
+    font-size: 21px;
+  }
+  .footer-contact {
+    margin: 50px 0px 50px 0px !important;
+  }
+}
+
+/* Extra small devices (phones, 767px and above) */
+@media only screen and (max-width: 767px) {
+  .contact-us {
+    padding: 0 10px 0px 10px;
+  }
+  .nav-lg-screen {
+    display: none;
+  }
+  .nav-sm-screen .menu-icon  {
+    display: block;
+  }
+}
+
+/* Extra small devices (phones, 480px and above) */
+@media only screen and (max-width: 480px) {
+  .contact-us {
+    padding: 0;
+  }
+  .logo-footer {
+    height: 100px;
+    width: 100px;
+  }
+  .hero-sec h1 {
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .sub-heading {
+    font-size: 36px !important;
+  } 
+  .tab-pane {
+    font-size: 19px;
+  }
+  .nav-link {
+    font-size: 19px;
+  }
+  
+  .nav-link.active {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .mervice-s3 {
+    font-size: 19px;
+  }
+  .btn {
+    font-size: 20px !important;
+    padding: 10px 40px;
+  }
+  .form-control {
+    font-size: 20px !important;
+  }
+  .form-group {
+    margin: 10px 0 !important;
+    padding-left: 0px !important;
+  }
+  .logo {
+    height: 80px;
+    width: 80px;
+  }
+  .index-form {
+    padding: 20px;
+  }
+}
+
+/* Extra small devices (phones, 420px and above) */
+@media only screen and (max-width: 420px) {
+  .mervice-s2 {
+    padding: 10px 0 20px;
+  }
+  .hero-sec {
+    padding: 150px 0 200px;
+  }
+  
+  .hero-sec h1 {
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .sub-heading {
+    font-size: 32px !important;
+  } 
+  .tab-pane {
+    font-size: 17px;
+  }
+  .nav-link.active {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .mervice-s3 {
+    font-size: 17px;
+  }
+  
+}
+
+/* Extra small devices (phones, 360px and above) */
+@media only screen and (max-width: 360px) {
+  /* Your CSS rules for devices up to 360px wide */
 }

@@ -512,11 +512,13 @@ footer {
   font-size: 18px;
   color: #1a194d;
   font-weight: 400;
+  
 }
 
 .desc ul {
   list-style: armenian;
   list-style: url("./public/right_arrow.png");
+  padding-left: 25px;
 }
 .nav-sm-screen {
   width: 100%;

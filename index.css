@@ -118,6 +118,8 @@ nav a p {
   display: flex;
   align-items: center;
   margin-bottom: 50px !important;
+  white-space: nowrap;
+  transition: 0.4s;
 }
 .custom-tabs .nav-item:first-child button {
   padding-left: 0;
@@ -156,7 +158,7 @@ nav a p {
 .mervice-s3 {
   font-size: 25px;
   line-height: 1.2 !important;
-
+  padding: 0px 20px;
   /* padding: 0 60px 0 60px !important; */
   text-align: left;
 }
@@ -217,6 +219,7 @@ ul.custom-bullets li {
   position: absolute;
   bottom: 0;
   width: 100%;
+  height: 100%;
 }
 ul.custom-bullets li:before {
   position: absolute;
@@ -557,7 +560,16 @@ footer {
   justify-content: flex-end;
   padding: 10px;
 }
-
+.tlr {
+  text-align: right;
+}
+.copy-right {
+  padding: 10px 8px;
+  font-size: 18px;
+  background-color: #FFF;
+  color: #154ca1;  
+  font-weight: 600;
+}
 /* Extra large devices (desktops, 1440px and above) */
 @media (max-width: 1440px) {
   /* Your CSS rules for devices up to 1440px wide */
@@ -588,6 +600,7 @@ footer {
   .mervice-s3 {
     font-size: 23px;
   }
+  
 }
 
 /* Medium devices (tablets, 1280px and above) */
@@ -655,6 +668,13 @@ footer {
 
 /* Extra small devices (phones, 767px and above) */
 @media (max-width: 767px) {
+  .tlr {
+    text-align: inherit;
+  }
+  .copy-right {
+    text-align: center;
+    font-size: 16px;
+  }
   .advantages .cust-card{
     padding: 20px;
   }
@@ -686,10 +706,15 @@ footer {
   }
 }
 
+
+
 /* Extra small devices (phones, 480px and above) */
 @media (max-width: 480px) {
   .bg-about-s4{
     background-position: left;
+  }
+  .copy-right {
+    font-size: 14px;
   }
   footer{
     padding: 70px 30px !important;

@@ -232,6 +232,7 @@ ul.custom-bullets li:before {
   margin-right: 20px;
   background-repeat: no-repeat;
   display: inline-block;
+  background-size: contain;
 }
 .index-form {
   padding: 70px;

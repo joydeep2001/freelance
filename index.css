@@ -552,7 +552,11 @@ footer {
   transform: translateX(0) !important;
 }
 
-
+.close-cont {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
 
 /* Extra large devices (desktops, 1440px and above) */
 @media (max-width: 1440px) {

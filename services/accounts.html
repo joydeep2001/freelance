@@ -23,35 +23,86 @@
   <body>
     <header>
       <div class="container-fluid">
-        <div class="d-flex align-items-center justify-content-between px-5">
+        <div class="d-flex align-items-center justify-content-between">
           <div class="">
-            <a class="logo" href="../index.html">
-              <img src="../public/main-logo.png" />
+            <a class="logo" href="index.html">
+              <img src="public/main-logo.png" />
             </a>
           </div>
-          <div class="">
+          <div class="nav-lg-screen">
             <nav class="d-flex align-items-center">
-              <a href="../index.html" class="color-home">
+              <a href="index.html" class="color-home">
                 <div class="menu-item">
-                  <img src="../public/home.png" />
+                  <img src="public/home.png" />
                   <p>home</p>
                 </div>
               </a>
-              <a href="../about_us.html" class="color-about">
+              <a href="about_us.html" class="color-about">
                 <div class="menu-item">
-                  <img src="../public/group.png" />
+                  <img src="public/group.png" />
                   <p>about us</p>
                 </div>
               </a>
-              <a href="../services.html" class="color-services">
+              <a href="services.html" class="color-services">
                 <div class="menu-item">
-                  <img src="../public/customer-support.png" />
+                  <img src="public/customer-support.png" />
                   <p>services</p>
                 </div>
               </a>
               <a href="#" class="color-contact">
                 <div class="menu-item">
-                  <img src="../public/contact-mail.png" />
+                  <img src="public/contact-mail.png" />
+                  <p>contact us</p>
+                </div>
+              </a>
+            </nav>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="nav-sm-screen">
+              <div class="menu-icon">
+                <img src="./public/menu.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col p-0">
+          <div class="menu-panel">
+            <nav class="">
+              <div class="close-cont">
+                <button
+                  type="button"
+                  class="btn-close btn-close-white"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <a href="index.html" class="color-home">
+                <div class="menu-item">
+                  <img src="public/home.png" />
+                  <p>home</p>
+                </div>
+              </a>
+              <a href="about_us.html" class="color-about">
+                <div class="menu-item">
+                  <img src="public/group.png" />
+                  <p>about us</p>
+                </div>
+              </a>
+              <a href="services.html" class="color-services">
+                <div class="menu-item">
+                  <img src="public/customer-support.png" />
+                  <p>services</p>
+                </div>
+              </a>
+              <a href="#" class="color-contact">
+                <div class="menu-item">
+                  <img src="public/contact-mail.png" />
                   <p>contact us</p>
                 </div>
               </a>
@@ -59,7 +110,7 @@
           </div>
         </div>
       </div>
-    </header>
+    </div>
 
     <section class="desc">
       <div class="container">
@@ -266,7 +317,7 @@
         offset: 240,
       });
     </script>
-
+    <script src="../script_menu.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"

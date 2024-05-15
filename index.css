@@ -182,7 +182,7 @@ nav a p {
 }
 .sub-heading {
   text-align: center;
-  padding: 20px !important;
+  padding: 20px;
   font-size: 42px !important;
   position: relative;
   margin-top: 40px !important;
@@ -798,6 +798,9 @@ footer {
     
     font-size: 42px;
     font-weight: 600;
+  }
+  .s2-bg-img-home .sub-heading {
+    padding-top: 0;
   }
   .sub-heading {
     font-size: 32px !important;

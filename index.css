@@ -460,6 +460,9 @@ footer {
   padding-right: 50px;
   margin-top: -150px;
 }
+.mb-20 {
+  margin-bottom: 20px;
+}
 .mb-40 {
   margin-bottom: 40px !important;
 }
@@ -552,7 +555,7 @@ footer {
 .menu-panel nav {
   display: flex;
   flex-direction: column;
-  top: 0;
+  top: 70px;
   height: 100vh;
   width: 100vw;
   position: fixed;

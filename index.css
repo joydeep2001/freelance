@@ -231,7 +231,7 @@ ul.custom-bullets li {
 ul.custom-bullets li:before {
   position: absolute;
   content: '';
-  left: -30px;
+  left: -40px;
   top: 12px;
   background-image: url(public/right-arrows.png);
   height: 30px;

@@ -292,6 +292,7 @@ textarea.form-control {
 .contact-us {
   margin-bottom: 40px !important;
   position: relative;
+  padding: 0 500px;
 }
 
 .contact-us .man img {
@@ -594,9 +595,6 @@ footer {
 @media (max-width: 1366px) {
   .contact-us .man img  {
     display: none;
-  }
-  .contact-us {
-    padding: 0px 240px 0px 240px;
   }
   .form-control {
     font-size: 30px !important;

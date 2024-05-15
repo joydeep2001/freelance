@@ -122,6 +122,9 @@ nav a p {
   white-space: nowrap;
   transition: 0.4s;
 }
+#cust-tab-content {
+  text-align: justify;
+}
 #mission-tab, #vission-tab {
   border-right: 2px solid #fff;
   

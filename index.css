@@ -587,6 +587,22 @@ footer {
   color: #154ca1;  
   font-weight: 600;
 }
+.menu-icon-cont {
+  height: 32px;
+  width: 32px;
+}
+.menu-icon-cont img {
+  height: 100%;
+  width: 100%;
+}
+.menu-panel .sm-menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  font-weight: 700;
+}
 /* Extra large devices (desktops, 1440px and above) */
 @media (max-width: 1440px) {
   /* Your CSS rules for devices up to 1440px wide */

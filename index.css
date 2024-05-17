@@ -624,8 +624,15 @@ footer {
   align-items: center;
 }
 .get-in-touch .contact-details .img-cont {
-  height: 100px;
-  width: 100px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  margin-right: 20px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .get-in-touch .contact-details .img-cont img {
   height: 100%;
@@ -634,18 +641,19 @@ footer {
 .contact-details a {
   text-decoration: none;
 }
-.contact-details a h3 {
+.contact-details a h3,
+.contact-details a p {
   color: black;
+  margin: 0;
+}
+.contact-details a h3:hover,
+.contact-details a p:hover {
+  color: #154ca1;
 }
 .contact-details a p {
   font-weight: 800;
 }
 .contact-details .contacts-txt {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  width: 100%;
 }
 .get-in-touch .text h3 {
   font-weight: 800;

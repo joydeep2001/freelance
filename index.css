@@ -814,6 +814,40 @@ footer {
   .service-home {
     display: block;
   }
+  .service-s3 {
+    font-size: 17px;
+    padding: 0;
+  }
+  .box-card {
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .rounded-icon {
+    font-size: 15px;
+    color: #1a194d;
+  }
+  .rounded-icon span {
+    font-weight: 800;
+  }
+  .rounded-icon {
+    font-size: 15px;
+  }
+  .rounded-icon .img-cont {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid #1a194d;
+    padding: 10px;
+  }
+  .rounded-icon .img-cont img {
+    height: 100%;
+    width: 100%;
+  }
+  .rounded-icon button {
+    width: 100px;
+    font-weight: 700;
+    font-size: 10px !important;
+  }
 }
 
 /* Extra small devices (phones, 480px and above) */
@@ -893,40 +927,6 @@ footer {
   }
   .contact-s2 {
     padding: 40px 5px;
-  }
-  .service-s3 {
-    font-size: 17px;
-    padding: 0;
-  }
-  .box-card {
-    padding: 10px;
-    border-radius: 20px;
-  }
-  .rounded-icon {
-    font-size: 15px;
-    color: #1a194d;
-  }
-  .rounded-icon span {
-    font-weight: 800;
-  }
-  .rounded-icon {
-    font-size: 15px;
-  }
-  .rounded-icon .img-cont {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    border: 1px solid #1a194d;
-    padding: 10px;
-  }
-  .rounded-icon .img-cont img {
-    height: 100%;
-    width: 100%;
-  }
-  .rounded-icon button {
-    width: 100px;
-    font-weight: 700;
-    font-size: 10px !important;
   }
 }
 

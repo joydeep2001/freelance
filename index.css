@@ -1,6 +1,6 @@
 body {
   font-family: "Montserrat";
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 .hero-sec {
   padding: 300px 0 400px;
@@ -12,7 +12,12 @@ body {
 .home-bg-img {
   background-image: url("public/hero.png");
 }
-
+.hero-sec-half {
+  padding: 200px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .pl-80 {
   padding-left: 80px;
 }
@@ -112,7 +117,6 @@ nav a p {
   line-height: 1.2;
   color: #ffffff;
   font-weight: 500;
-  
 }
 #cust-tab {
   padding-left: 0;
@@ -125,9 +129,9 @@ nav a p {
 #cust-tab-content {
   text-align: justify;
 }
-#mission-tab, #vission-tab {
+#mission-tab,
+#vission-tab {
   border-right: 2px solid #fff;
-  
 }
 
 .nav-link {
@@ -222,10 +226,10 @@ ul.custom-bullets li {
   position: relative;
   /* list-style-image: url(public/right_arrow.png); */
 }
-.middle-image{
+.middle-image {
   position: relative;
 }
-.middle-image img{
+.middle-image img {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -233,7 +237,7 @@ ul.custom-bullets li {
 }
 ul.custom-bullets li:before {
   position: absolute;
-  content: '';
+  content: "";
   left: -40px;
   top: 12px;
   background-image: url(public/right-arrows.png);
@@ -326,13 +330,16 @@ footer {
   text-decoration: none;
   color: #fff;
 }
+.reach-us {
+  height: 100%;
+}
 .reach-us h2 {
   font-size: 42px;
   font-weight: 700;
 }
 .reach-us-map {
   width: 100%;
-  height: 237px;
+  height: 100%;
   border-radius: 15px;
   overflow: hidden;
 }
@@ -343,14 +350,14 @@ footer {
 }
 .icon-cont {
   align-items: center;
-    justify-content: center;
-    display: flex;
-    padding: 16px;
-    width: 60px;
-    height: 60px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    cursor: pointer;
+  justify-content: center;
+  display: flex;
+  padding: 16px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
 }
 .icon-cont img {
   height: 100%;
@@ -407,7 +414,7 @@ footer {
   border: 1px solid #1a194d;
   background-color: white;
 }
-.box-card{
+.box-card {
   margin-bottom: 20px;
 }
 .bg-about-s4 {
@@ -522,11 +529,11 @@ footer {
 }
 
 /*services sub pages*/
-.desc p, .desc li {
+.desc p,
+.desc li {
   font-size: 18px;
   color: #1a194d;
   font-weight: 400;
-  
 }
 
 .desc ul {
@@ -537,14 +544,13 @@ footer {
 .nav-sm-screen {
   width: 100%;
   display: flex;
-  
+
   justify-content: flex-end;
 }
 .nav-sm-screen .menu-icon {
   height: 30px;
   width: 30px;
   display: none;
-  
 }
 .nav-sm-screen .menu-icon img {
   height: 100%;
@@ -553,7 +559,6 @@ footer {
 .menu-panel {
   position: relative;
   z-index: 100;
-  
 }
 .menu-panel nav {
   display: flex;
@@ -563,10 +568,9 @@ footer {
   width: 100vw;
   position: fixed;
   background-color: #3173a5;
-  
+
   transform: translateX(-100%);
   transition: transform 0.3s linear;
-  
 }
 .active {
   transform: translateX(0) !important;
@@ -583,8 +587,8 @@ footer {
 .copy-right {
   padding: 10px 8px;
   font-size: 18px;
-  background-color: #FFF;
-  color: #154ca1;  
+  background-color: #fff;
+  color: #154ca1;
   font-weight: 600;
 }
 .menu-icon-cont {
@@ -603,15 +607,61 @@ footer {
   padding: 20px;
   font-weight: 700;
 }
+
+/*contact us*/
+.contact-s2 {
+  padding: 100px 160px;
+}
+
+.get-in-touch {
+  padding: 100px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.get-in-touch .contact-details {
+  display: flex;
+  align-items: center;
+}
+.get-in-touch .contact-details .img-cont {
+  height: 100px;
+  width: 100px;
+}
+.get-in-touch .contact-details .img-cont img {
+  height: 100%;
+  width: 100%;
+}
+.contact-details a {
+  text-decoration: none;
+}
+.contact-details a h3 {
+  color: black;
+}
+.contact-details a p {
+  font-weight: 800;
+}
+.contact-details .contacts-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.get-in-touch .text h3 {
+  font-weight: 800;
+}
 /* Extra large devices (desktops, 1440px and above) */
 @media (max-width: 1440px) {
   /* Your CSS rules for devices up to 1440px wide */
-  
+  .contact-us {
+    padding: 0 300px;
+  }
 }
 
 /* Large devices (laptops/desktops, 1366px and above) */
 @media (max-width: 1366px) {
-  .contact-us .man img  {
+  .contact-us {
+    padding: 0 250px;
+  }
+  .contact-us .man img {
     display: none;
   }
   .form-control {
@@ -619,7 +669,7 @@ footer {
   }
   .sub-heading {
     font-size: 40px;
-  } 
+  }
   .hero-sec h1 {
     font-size: 60px;
     font-weight: 600;
@@ -630,42 +680,52 @@ footer {
   .mervice-s3 {
     font-size: 23px;
   }
-  
 }
 
 /* Medium devices (tablets, 1280px and above) */
 @media (max-width: 1280px) {
- 
+  .contact-us {
+    padding: 0 200px;
+  }
+  .contact-s2 {
+    padding: 100px 80px;
+  }
 }
 
 /* Small devices (tablets, 1024px and above) */
 @media (max-width: 1024px) {
-  .rounded-icon{
+  .rounded-icon {
     margin-bottom: 20px;
   }
-  .bg-about-s4{
+  .bg-about-s4 {
     background-position: left;
   }
   .contact-us {
     padding: 0px 30px;
   }
-  .box-card{
+  .box-card {
     margin-bottom: 20px;
+  }
+  .get-in-touch {
+    padding: 100px 50px;
+  }
+  .contact-s2 {
+    padding: 100px 10px;
   }
 }
 
 /* Extra small devices (phones, 991px and above) */
 @media (max-width: 991px) {
-  .middle-image{
+  .middle-image {
     display: none;
   }
-  .service-hero-txt{
+  .service-hero-txt {
     padding-right: 0;
   }
-  .service-bg-img{
+  .service-bg-img {
     background-position: right;
   }
-  .hero-sec{
+  .hero-sec {
     height: auto;
   }
   .form-control {
@@ -673,7 +733,7 @@ footer {
   }
   .sub-heading {
     font-size: 38px !important;
-  } 
+  }
   .hero-sec h1 {
     font-size: 58px;
     font-weight: 600;
@@ -709,22 +769,22 @@ footer {
     text-align: center;
     font-size: 16px;
   }
-  .advantages .cust-card{
+  .advantages .cust-card {
     padding: 20px;
   }
   .hero {
     padding: 0 !important;
   }
-  .service-hero-txt{
+  .service-hero-txt {
     margin-top: auto;
   }
-  .rounded-icon{
+  .rounded-icon {
     margin-bottom: 20px;
   }
-  header{
+  header {
     padding: 5px;
   }
-  header .container-fluid{
+  header .container-fluid {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -735,31 +795,35 @@ footer {
   .nav-lg-screen {
     display: none;
   }
-  .nav-sm-screen .menu-icon  {
+  .nav-sm-screen .menu-icon {
     display: block;
+  }
+  .reach-us-map {
+    height: 300px;
   }
 }
 
-
-
 /* Extra small devices (phones, 480px and above) */
 @media (max-width: 480px) {
-  .bg-about-s4{
+  .bg-about-s4 {
     background-position: left;
   }
   .copy-right {
     font-size: 14px;
   }
-  footer{
+  footer {
     padding: 70px 30px !important;
   }
   .hero-sec {
     padding: 70px 30px;
   }
-  .footer-contact h3{
+  .hero-sec-half {
+    padding: 70px 30px;
+  }
+  .footer-contact h3 {
     font-size: 20px;
   }
-  .footer-contact p{
+  .footer-contact p {
     font-size: 16px;
   }
   .contact-us {
@@ -775,14 +839,14 @@ footer {
   }
   .sub-heading {
     font-size: 36px !important;
-  } 
+  }
   .tab-pane {
     font-size: 19px;
   }
   .nav-link {
     font-size: 19px;
   }
-  
+
   .nav-link.active {
     font-size: 24px;
     font-weight: 600;
@@ -804,11 +868,24 @@ footer {
   .index-form {
     padding: 20px;
   }
+  .hero-text {
+    font-size: 36px;
+  }
+  .get-in-touch {
+    padding: 60px 20px;
+  }
+  .get-in-touch .contact-details .img-cont {
+    height: 50px;
+    width: 50px;
+  }
+  .contact-s2 {
+    padding: 40px 5px;
+  }
 }
 
 /* Extra small devices (phones, 420px and above) */
 @media (max-width: 420px) {
-  .reach-us h2{
+  .reach-us h2 {
     font-size: 32px;
   }
   .mervice-s2 {
@@ -817,9 +894,8 @@ footer {
   ul.custom-bullets {
     padding: 0px 10px 0px 10px;
   }
-  
+
   .hero-sec h1 {
-    
     font-size: 42px;
     font-weight: 600;
   }
@@ -828,7 +904,7 @@ footer {
   }
   .sub-heading {
     font-size: 32px !important;
-  } 
+  }
   .tab-pane {
     font-size: 17px;
   }
@@ -846,7 +922,6 @@ footer {
   .box-card {
     padding: 10px;
     border-radius: 20px;
-    
   }
   .rounded-icon {
     font-size: 15px;
@@ -864,9 +939,8 @@ footer {
     border-radius: 50%;
     border: 1px solid #1a194d;
     padding: 10px;
-    
   }
-  .rounded-icon .img-cont img  {
+  .rounded-icon .img-cont img {
     height: 100%;
     width: 100%;
   }
@@ -874,9 +948,7 @@ footer {
     width: 100px;
     font-weight: 700;
     font-size: 10px !important;
-    
   }
-  
 }
 
 /* Extra small devices (phones, 360px and above) */

@@ -170,7 +170,7 @@ nav a p {
 .mervice-s3 {
   font-size: 25px;
   line-height: 1.2 !important;
-  padding: 0px 20px;
+  /* padding: 0px 20px; */
   /* padding: 0 60px 0 60px !important; */
   text-align: left;
 }
@@ -375,7 +375,7 @@ footer {
   font-size: 18px;
   line-height: 1.5;
   color: #ffffff;
-  font-weight: 400;
+  font-weight: 500;
 }
 .color-about-s3 {
   color: #222222;

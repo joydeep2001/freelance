@@ -363,7 +363,9 @@ footer {
   height: 100%;
   width: 100%;
 }
-
+.service-home {
+  display: none;
+}
 /*About Page */
 
 .about-bg-img {
@@ -800,6 +802,9 @@ footer {
   }
   .reach-us-map {
     height: 300px;
+  }
+  .service-home {
+    display: block;
   }
 }
 
